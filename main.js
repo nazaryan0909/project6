@@ -70,3 +70,28 @@
 // }
 
 // console.log(empty({}))
+
+let obj = {
+    x:{
+        y:{
+            z:"hello",
+            age:40
+        }
+    }
+}
+
+let path = "x.y.z"
+console.log(path.split("."))
+
+function pathInObject(obj, path){
+    let obj1 = object 
+    let arr = path.split(".")
+    for(let i = 0; i < arr.length; i++){
+        if(obj1[arr[i]] === undefined){
+            return false
+        }else {
+            obj1= obj1[arr[i]]
+        }
+    }
+    return true
+}

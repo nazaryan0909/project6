@@ -46,12 +46,27 @@
   
 // Խնդիր 4: Օբյեկտի պատճենում 
 // Նկարագրություն: Գրել ֆունկցիա, որը կվերադարձնի նոր օբյեկտ, որը պատճեն է տրված օբյեկտի։
-function copyObject(obj){
-    let obj1 = {}
-    for(let key in obj){
-        obj1[key] = obj[key]
-    }
-    return obj1
+// function copyObject(obj){
+//     let obj1 = {}
+//     for(let key in obj){
+//         obj1[key] = obj[key]
+//     }
+//     return obj1
     
-}
-console.log(copyObject({name: 'Alen', age: 15}))
+// }
+// console.log(copyObject({name: 'Alen', age: 15}))
+
+// Գրել ֆունկցիա , որը պարզում է տրված օբյեկտը դատարկ է , թե ոչ։
+
+// function empty(obj){
+//     let count = 0;
+//     for(let key in obj){
+//      count++
+//     }
+//     if(count == 0){
+//         return true;
+//     }
+//     return false;
+// }
+
+// console.log(empty({}))

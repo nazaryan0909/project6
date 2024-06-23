@@ -2,46 +2,45 @@
 // Նկարագրություն: Գրել ֆունկցիա, որը տրված օբյեկտի բոլոր հատկությունների անվանումները  
  // և արժեքները կցուցադրի console-ում։
 
-function Hatkutyun(obj) {
-    for(let key in obj){
-        console.log(key)
-        console.log(obj[key])
-      }
-    }
-  const person = {
-    name: 'Edgar',
-    age: 30,
-    city: 'Tashir',
-    occupation: 'Cragravorox'
-  };
-   Hatkutyun(person);
-
-
-
-// function hashvark(obj) {
-//     let count = 0;
-//     for (let prop in obj) {
-//       if (obj.arjeq(prop)) {
-//         count++;
+// function Hatkutyun(obj) {
+//     for(let key in obj){
+//         console.log(key)
+//         console.log(obj[key])
 //       }
 //     }
-  
-//     return count;
-//   }
-
 //   const person = {
-//     name: 'Armen',
+//     name: 'Edgar',
 //     age: 30,
-//     city: 'New York',
-//     occupation: 'Bjishk'
+//     city: 'Tashir',
+//     occupation: 'Cragravorox'
 //   };
+//    Hatkutyun(person);
+
+// Խնդիր 2: Հատկությունների քանակի հաշվարկ 
+// Նկարագրություն: Գրել ֆունկցիա, որը կհաշվարկի տրված օբյեկտի հատկությունների քանակը։
+
+function hashvark(obj) {
+    let count = 0;
+    for (let prop in obj) {
+        count++
+    }
   
-//   const car = {
-//     make: 'Toyota',
-//     model: 'Camry',
-//     year: 2020
-//   };
+    return count;
+  }
+
+  const person = {
+    name: 'Armen',
+    age: 30,
+    city: 'New York',
+    occupation: 'Bjishk'
+  }
   
-//   console.log(hashvark(person));
-//   console.log(hashvark(car)); 
+  const car = {
+    make: 'Toyota',
+    model: 'Camry',
+    year: 2020
+  }
+  
+  console.log(hashvark(person));
+  console.log(hashvark(car)); 
   

@@ -19,28 +19,39 @@
 // Խնդիր 2: Հատկությունների քանակի հաշվարկ 
 // Նկարագրություն: Գրել ֆունկցիա, որը կհաշվարկի տրված օբյեկտի հատկությունների քանակը։
 
-function hashvark(obj) {
-    let count = 0;
-    for (let prop in obj) {
-        count++
-    }
+// function hashvark(obj) {
+//     let count = 0;
+//     for (let prop in obj) {
+//         count++
+//     }
   
-    return count;
-  }
+//     return count;
+//   }
 
-  const person = {
-    name: 'Armen',
-    age: 30,
-    city: 'New York',
-    occupation: 'Bjishk'
-  }
+//   const person = {
+//     name: 'Armen',
+//     age: 30,
+//     city: 'New York',
+//     occupation: 'Bjishk'
+//   }
   
-  const car = {
-    make: 'Toyota',
-    model: 'Camry',
-    year: 2020
-  }
+//   const car = {
+//     make: 'Toyota',
+//     model: 'Camry',
+//     year: 2020
+//   }
   
-  console.log(hashvark(person));
-  console.log(hashvark(car)); 
+//   console.log(hashvark(person));
+//   console.log(hashvark(car)); 
   
+// Խնդիր 4: Օբյեկտի պատճենում 
+// Նկարագրություն: Գրել ֆունկցիա, որը կվերադարձնի նոր օբյեկտ, որը պատճեն է տրված օբյեկտի։
+function copyObject(obj){
+    let obj1 = {}
+    for(let key in obj){
+        obj1[key] = obj[key]
+    }
+    return obj1
+    
+}
+console.log(copyObject({name: 'Alen', age: 15}))

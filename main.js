@@ -96,9 +96,15 @@
 //     return true
 // }
 
+// Խնդիր 1: 0-ից մինչև 1 թվի գեներացիա 
+// Գեներացնել պատահական թիվ 0-ից մինչև 1 միջակայքում:
 
 // let randomNumber = Math.random();
 // console.log(randomNumber);
+
+// Խնդիր 2: 0-ից մինչև 100 ամբողջական թվի գեներացիա 
+// Գեներացնել պատահական ամբողջական թիվ 0-ից մինչև 100 միջակայքում:
+
 
 // let randomInteger = Math.floor(Math.random() * 101); 
 // console.log(randomInteger);
@@ -114,4 +120,28 @@
 // let n = 10;
 // let randomInt = getRandomInteger(m, n);
 // console.log(randomInt);
-v
+// function RandomElementFromArr(arr){
+//     let index = Math.floor(Math.random() * arr.length)
+//     return arr[index]
+// }
+// console.log(RandomElementFromArr(["Alen", "Sevak", "Taguhi", "Lyusi"]))
+
+// Խնդիր 5: Պատահական տառ 
+// Գեներացնել պատահական տառ (A-Z):
+
+// function RandomLetter(){
+// let x = "ABCDEFGJKLMNOPQRZ"
+// let index = Math.floor(Math.random() * x.length)
+// return x[index]
+// }
+// console.log(RandomLetter())
+
+// console.log(String.fromCharCode(1381))
+
+function RandomNumberFrom65to90(){
+
+    let randomInteger = Math.floor(Math.random() * (90 - 65 + 1) + 65)
+    console.log(randomInteger)
+    return String.fromCharCode(randomInteger)
+}
+console.log(RandomNumberFrom65to90())

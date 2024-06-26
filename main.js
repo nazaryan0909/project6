@@ -138,10 +138,28 @@
 
 // console.log(String.fromCharCode(1381))
 
-function RandomNumberFrom65to90(){
+// function RandomNumberFrom65to90(){
 
-    let randomInteger = Math.floor(Math.random() * (90 - 65 + 1) + 65)
-    console.log(randomInteger)
-    return String.fromCharCode(randomInteger)
-}
-console.log(RandomNumberFrom65to90())
+//     let randomInteger = Math.floor(Math.random() * (90 - 65 + 1) + 65)
+//     console.log(randomInteger)
+//     return String.fromCharCode(randomInteger)
+// }
+// console.log(RandomNumberFrom65to90())
+
+// function RandomNUmber97to122(){
+//     let randomInteger = Math.floor(Math.random() * (122 - 97 + 1) + 97)
+//      console.log(randomInteger)
+//      return String.fromCharCode(randomInteger)
+// }
+// console.log(RandomNUmber97to122())
+
+// Խնդիր 6: Պատահական  գույն (RGB) 
+// Գեներացնել պատահական RGB գույնի արժեք:
+
+// function RandomColor(){
+//     let Red = Math.floor(Math.random() * (255 - 0 + 1) + 0)
+//     let Blue = Math.floor(Math.random() * (255 - 0 + 1) + 0)
+//     let Green = Math.floor(Math.random() * (255 - 0 + 1) + 0)
+//     return `(${Red}, ${Blue}, ${Green})`
+// }
+// console.log(RandomColor())

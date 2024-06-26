@@ -71,27 +71,47 @@
 
 // console.log(empty({}))
 
-let obj = {
-    x:{
-        y:{
-            z:"hello",
-            age:40
-        }
-    }
-}
+// let obj = {
+//     x:{
+//         y:{
+//             z:"hello",
+//             age:40
+//         }
+//     }
+// }
 
-let path = "x.y.z"
-console.log(path.split("."))
+// let path = "x.y.z"
+// console.log(path.split("."))
 
-function pathInObject(obj, path){
-    let obj1 = object 
-    let arr = path.split(".")
-    for(let i = 0; i < arr.length; i++){
-        if(obj1[arr[i]] === undefined){
-            return false
-        }else {
-            obj1= obj1[arr[i]]
-        }
-    }
-    return true
-}
+// function pathInObject(obj, path){
+//     let obj1 = object 
+//     let arr = path.split(".")
+//     for(let i = 0; i < arr.length; i++){
+//         if(obj1[arr[i]] === undefined){
+//             return false
+//         }else {
+//             obj1= obj1[arr[i]]
+//         }
+//     }
+//     return true
+// }
+
+
+// let randomNumber = Math.random();
+// console.log(randomNumber);
+
+// let randomInteger = Math.floor(Math.random() * 101); 
+// console.log(randomInteger);
+
+// function getRandomInteger(min, max) {
+//     min = Math.ceil(min);
+//     max = Math.floor(max);
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+
+// let m = 5;
+// let n = 10;
+// let randomInt = getRandomInteger(m, n);
+// console.log(randomInt);
+v
